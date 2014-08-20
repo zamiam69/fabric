@@ -1,0 +1,20 @@
+Host myhost
+    User neighbor
+    Port 664
+    IdentityFile neighbor.pub
+
+Host myalias
+    HostName otherhost
+
+Host *.bla 
+	HostName 127.6.6.6
+	User lucifer
+
+Host blubb.*
+	HostName 127.7.7.7
+	User favourite
+
+Host *
+    User satan
+    Port 666
+    IdentityFile foobar.pub
